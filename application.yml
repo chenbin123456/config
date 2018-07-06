@@ -1,0 +1,9 @@
+server:
+  port: 17601
+spring:
+  application:
+    name: hact-config-server
+  profiles:
+    active: dev
+  config:
+    name: hact-config-server
